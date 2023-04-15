@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "test": "npx playwright test suuceSemoTest.spec.ts",
+    "testOne": "npx playwright test",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "file-saver": "^2.0.5",
+    "node-fetch": "^3.3.1"
+  }
+}

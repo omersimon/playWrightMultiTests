@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pw:
+    build: .
+    image: "omerdocker"
+#    command: test
+#    volumes:
+#      - ./app/reports:/app/reports
